@@ -1,0 +1,10 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "json-server",
+      "description": "typicode"
+    }
+  ]
+
+}
