@@ -5,22 +5,32 @@ import VueRouter from 'vue-router'
 import Accueil from "@/views/Accueil";
 import Produits from "@/views/Produits";
 
+import AjouterProduit from "@/views/AjouterProduit";
+
 
 Vue.use(VueRouter)
 
 const routes = [
   {
+    //Si url = / appel de la vue Accueil qui appel AccueilComponent
     path: '/',
     name: 'Accueil',
     component: Accueil
   },
   {
+    //Si url = /produits appel de la vue Produit qui appel ProduitComponent
     path: '/produits',
     name: 'Produits',
     component: Produits
+  },
+  {
+    //Si url = /ajouter-produit appel de la vue AjouterProduit qui appel AjouterProduitComponent
+    path: '/ajouter-produit',
+    name: 'AjouterProduit',
+    component: AjouterProduit
   }
 ]
-
+//Insatnce du middleware Router (vue add router dans un terminal)
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,

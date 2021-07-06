@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
+      <!--APPEL LES ROUTES DE router/index.js-->
       <router-link to="/">ACCUEIL</router-link> |
-      <router-link to="/produits">PRODUITS</router-link>
+      <router-link to="/produits"> PRODUITS</router-link> |
+      <router-link to="/ajouter-produit">AJOUTER UN PRODUIT</router-link>
     </div>
+    <!--Appel des vues-->
     <router-view/>
   </div>
 </template>

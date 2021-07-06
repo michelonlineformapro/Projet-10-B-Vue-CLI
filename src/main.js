@@ -1,4 +1,6 @@
+//Appel du framework vuejs
 import Vue from 'vue'
+//Appel du point d'entrée App.vue
 import App from './App.vue'
 import router from './router'
 

@@ -6,7 +6,12 @@
 
 <script>
 export default {
-  name: "AccueilComponent"
+  name: "AccueilComponent",
+  data(){
+    return{
+
+    }
+  }
 
 }
 </script>
