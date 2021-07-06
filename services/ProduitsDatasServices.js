@@ -21,7 +21,7 @@ class ProduitsDatasServices{
     }
 
     //mettre a jour un produit
-    mettreAHourProduit(id, data){
+    mettreAJourProduit(id, data){
         return http.put(`/produits/${id}`, data)
     }
 

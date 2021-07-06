@@ -2,9 +2,59 @@
   "produits": [
     {
       "id": 1,
-      "nom": "json-server",
-      "description": "typicode"
+      "title": "Megaman 2",
+      "description": "Le jeux de Capcom tiré du titre arcade.",
+      "picture": "https://www.gamecash.fr/thumbnail-600/mega-man-2-e51287.jpg",
+      "price": 4863.5,
+      "stock": 45
+    },
+    {
+      "title": "Super Mario Bros 3",
+      "description": "Super Mario Bros. 3 est un jeu vidéo de plates-formes développé et édité par Nintendo sur Nintendo Entertainment System. Il s'agit du troisième volet de la série Super Mario et il est commercialisé en 1988 au Japon, en 1990 aux États-Unis et en 1991 en Europe.",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51FEPJbkQuL._AC_.jpg",
+      "price": "325.25",
+      "stock": "150",
+      "id": 2
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "picture": "test",
+      "price": "32.265",
+      "stock": "65",
+      "id": 3
+    },
+    {
+      "title": "test 2",
+      "description": "Ok go",
+      "picture": "test 2",
+      "price": "412.25",
+      "stock": "85",
+      "id": 4
+    },
+    {
+      "title": "encore 1",
+      "description": "encore un test",
+      "picture": "teste",
+      "price": "4512.35",
+      "stock": "412",
+      "id": 5
+    },
+    {
+      "title": "the last",
+      "description": "kdzlkd",
+      "picture": "zdz",
+      "price": "45",
+      "stock": "5454",
+      "id": 6
+    },
+    {
+      "title": "stop c fini",
+      "description": "Fin du bal",
+      "picture": "termminé",
+      "price": "45.25",
+      "stock": "12",
+      "id": 7
     }
   ]
-
 }
