@@ -72,7 +72,7 @@
   <!--Si valide devient true on vide le formulaire-->
   <div v-else>
     <h4 class="text-info text-center">Le produit à bien été ajouter</h4>
-    <button class="btn btn-outline-danger" @click="viderFormulaire">Ajouter</button>
+    <button class="btn btn-outline-danger" @click="viderFormulaire">Retour</button>
   </div>
 
 </template>
@@ -80,7 +80,6 @@
 <script>
 //Import du ficher de services pour appeler les fonction de requètes HTTP axios
 import ProduitsDatasServices from "../../services/ProduitsDatasServices";
-
 
 export default {
   //Nom du fichier courant
@@ -130,7 +129,7 @@ export default {
       })
     },
 
-    //Fontion qui vide le formulaire
+    //Fonction qui vide le formulaire
     viderFormulaire(){
       this.valide = false;
       this.produits = {}

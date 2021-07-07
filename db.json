@@ -6,55 +6,158 @@
       "description": "Le jeux de Capcom tiré du titre arcade.",
       "picture": "https://www.gamecash.fr/thumbnail-600/mega-man-2-e51287.jpg",
       "price": 4863.5,
-      "stock": 45
+      "stock": "NON"
     },
     {
-      "title": "Super Mario Bros 3",
-      "description": "Super Mario Bros. 3 est un jeu vidéo de plates-formes développé et édité par Nintendo sur Nintendo Entertainment System. Il s'agit du troisième volet de la série Super Mario et il est commercialisé en 1988 au Japon, en 1990 aux États-Unis et en 1991 en Europe.",
-      "picture": "https://images-na.ssl-images-amazon.com/images/I/51FEPJbkQuL._AC_.jpg",
+      "id": 2,
+      "title": "Double Dragon 2",
+      "description": "Un beat them Up à deux joueur, Billy et Jimmy 2 frères sont a la recherche de leur copine",
+      "picture": "https://www.gamecash.fr/thumbnail-600/double-dragon-nes-e8010.jpg",
+      "price": "123.25",
+      "stock": "OUI"
+    },
+    {
+      "id": 3,
+      "title": "Castlevania",
+      "description": "La famille Belmont qui chasse les vampires. depuis des années 1980",
+      "picture": "https://www.gamecash.fr/thumbnail-400-450/castlevania-e20667.jpg",
+      "price": 4187.45,
+      "stock": "NON"
+    },
+    {
+      "id": 4,
+      "title": "Batman",
+      "description": "Le chavalier noir masqué dans un super platformer 2D.",
+      "picture": "https://www.gamecash.fr/thumbnail-400-450/batman-eu-e107733.jpg",
+      "price": 7762.35,
+      "stock": "OUI"
+    },
+    {
+      "id": 6,
+      "title": "Duck Hunt",
+      "description": "Le jeux de chasse vendu en Bundle avec le pistolet Nintendo.",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/8119vhvDPnL._AC_SY500_.jpg",
+      "price": 6687.85,
+      "stock": "OUI"
+    },
+    {
+      "id": 7,
+      "title": "Kirby's Adventure",
+      "description": "La boule rose aspirateur de Gunpei Yokoi.",
+      "picture": "https://www.gamecash.fr/thumbnail-400-450/kirby-s-adventure-fr-e116808.jpg",
+      "price": 59.25,
+      "stock": "NON"
+    },
+    {
+      "id": 8,
+      "title": "Bubble Bobble",
+      "description": "Premier volet de ce puzzle games.",
+      "picture": "https://www.cash-web.info/medias/produits/783001_784000/p_1_783670.jpg",
+      "price": 406.15,
+      "stock": "NON"
+    },
+    {
+      "id": 9,
+      "title": "The Legent Of Zelda ",
+      "description": "Le jeux de Miyamoto en top down et ses palais.",
+      "picture": "https://www.gamecash.fr/thumbnail-600/zelda-eu-e107762.jpg",
+      "price": 3099.45,
+      "stock": "NON"
+    },
+    {
+      "id": 10,
+      "title": "Blaster Master",
+      "description": "Je ne sais plus c quoi ! DSL.",
+      "picture": "https://www.gamecash.fr/thumbnail-400-450/blaster-master-e20654.jpg",
+      "price": 4227.62,
+      "stock": "En Stock : OUI"
+    },
+    {
+      "id": 11,
+      "title": "Mario Bros 3",
+      "description": "Le jeux de Nintendo Nes",
+      "picture": "https://www.gamecash.fr/thumbnail-600/mega-man-2-e51287.jpg",
+      "price": "528.25"
+    },
+    {
+      "id": 12,
+      "title": "Tortue Ninja",
+      "description": "Les 4 tortues sur nes",
+      "picture": "https://www.gamecash.fr/thumbnail-600/teenage-mutant-ninja-2-e140211.jpg",
+      "price": 4582.45,
+      "stock": "OUI"
+    },
+    {
+      "title": "Ghosts 'n Goblins",
+      "description": "Ghosts 'n Goblins au Japon est un jeu vidéo de plates-formes développé et édité par Capcom en 1985 sur borne d'arcade. Quatre suites officielles virent ensuite le jour, Ghouls 'n Ghosts, Super Ghouls 'n Ghosts, Ultimate Ghosts 'n Goblins et Ghosts 'n Goblins Resurrection.",
+      "picture": "https://image.jeuxvideo.com/images/jaquettes/00030299/jaquette-ghosts-n-goblins-pc-cover-avant-g.jpg",
       "price": "325.25",
-      "stock": "150",
-      "id": 2
+      "stock": "NON",
+      "id": 13
     },
     {
-      "title": "test",
-      "description": "test",
+      "title": "Test",
+      "description": "test du produit",
       "picture": "test",
-      "price": "32.265",
-      "stock": "65",
-      "id": 3
+      "price": "32.25",
+      "stock": "NON",
+      "id": 14
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "nom": "reine",
+      "image": "https://assets.afcdn.com/recipe/20210514/120317_w1024h768c1cx1060cy707.jpg",
+      "ingredient1": "tomate",
+      "ingredient2": "",
+      "ingredient3": "",
+      "ingredient4": ""
     },
     {
-      "title": "test 2",
-      "description": "Ok go",
-      "picture": "test 2",
-      "price": "412.25",
-      "stock": "85",
-      "id": 4
+      "id": 2,
+      "nom": "margherita",
+      "image": "https://fr.frije.com/content/recipes/120701/800-1.jpg",
+      "ingredient1": "tomate",
+      "ingredient2": "mozzarella",
+      "ingredient3": "",
+      "ingredient4": ""
     },
     {
-      "title": "encore 1",
-      "description": "encore un test",
-      "picture": "teste",
-      "price": "4512.35",
-      "stock": "412",
-      "id": 5
+      "id": 3,
+      "nom": "orientale",
+      "image": "http://www.casa-pizza.com/images/photorecettes/pizza-orientale-123rf.jpg",
+      "ingredient1": "tomate",
+      "ingredient2": "mozzarella",
+      "ingredient3": "jambon",
+      "ingredient4": ""
     },
     {
-      "title": "the last",
-      "description": "kdzlkd",
-      "picture": "zdz",
-      "price": "45",
-      "stock": "5454",
-      "id": 6
+      "id": 4,
+      "nom": "americaine",
+      "image": "https://www.marie.fr/content/uploads/PIZZA_CMX_AMERICAINE_FV-1200x630.jpg",
+      "ingredient1": "tomate",
+      "ingredient2": "mozzarella",
+      "ingredient3": "jambon",
+      "ingredient4": "olive"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "nom": "tomate"
     },
     {
-      "title": "stop c fini",
-      "description": "Fin du bal",
-      "picture": "termminé",
-      "price": "45.25",
-      "stock": "12",
-      "id": 7
+      "id": 2,
+      "nom": "mozzarella"
+    },
+    {
+      "id": 3,
+      "nom": "jambon"
+    },
+    {
+      "id": 4,
+      "nom": "olive"
     }
   ]
 }
