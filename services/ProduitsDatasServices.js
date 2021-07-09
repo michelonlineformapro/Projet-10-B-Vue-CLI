@@ -30,6 +30,11 @@ class ProduitsDatasServices{
         return http.delete(`/produits/${id}`)
     }
 
+    //Recherche par titre
+    trouverParNom(nomProduit){
+        return http.get(`/produits?title=${nomProduit}`)
+    }
+
 }
 
 export default new ProduitsDatasServices()

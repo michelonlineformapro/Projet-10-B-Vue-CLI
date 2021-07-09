@@ -6,6 +6,7 @@ import Accueil from "@/views/Accueil";
 import Produits from "@/views/Produits";
 
 import AjouterProduit from "@/views/AjouterProduit";
+import DetailsProduit from "@/views/DetailsProduit";
 
 
 Vue.use(VueRouter)
@@ -28,6 +29,12 @@ const routes = [
     path: '/ajouter-produit',
     name: 'AjouterProduit',
     component: AjouterProduit
+  },
+  {
+    //Si url = /produits/:id appel de la vue DetailsProduit qui appel DetailsProduitComponent
+    path: '/produits/:id',
+    name: 'DetailsProduit',
+    component: DetailsProduit
   }
 ]
 //Insatnce du middleware Router (vue add router dans un terminal)

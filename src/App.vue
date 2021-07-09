@@ -12,6 +12,21 @@
 </template>
 
 <style>
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #373940!important;
+}
+.container{
+  background-color: white!important;
+  border-radius: 5px!important;
+  padding: 20px!important;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,10 +41,12 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: orange;
+  text-decoration: none!important;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
+
 }
 </style>

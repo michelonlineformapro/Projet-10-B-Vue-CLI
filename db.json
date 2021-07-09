@@ -96,12 +96,13 @@
       "id": 13
     },
     {
-      "title": "Test",
-      "description": "test du produit",
-      "picture": "test",
-      "price": "32.25",
-      "stock": "NON",
-      "id": 14
+      "id": 14,
+      "title": "Metroid",
+      "description": "Metroid est un jeu vidéo d'action-aventure développé par Nintendo R&D1 et Intelligent Systems, et édité par Nintendo en 1986 sur Famicom Disk System, l'extension de la Famicom. Il sort à partir de 1987 sur NES en Amérique du Nord, puis dans le reste du monde et en arcade cette même année. ",
+      "picture": "https://image.jeuxvideo.com/images-sm/ns/m/e/metrns0f.jpg",
+      "price": "250.25",
+      "stock": "45",
+      "publier": true
     }
   ],
   "pizzas": [
