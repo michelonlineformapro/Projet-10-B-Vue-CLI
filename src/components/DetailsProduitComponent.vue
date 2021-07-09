@@ -68,25 +68,25 @@
       <button
           type="button"
           class="btn btn-outline-danger"
-          v-if="produitCourant.public"
+          v-if="produitCourant.publier"
           @click="miseJourEtPublication(false)"
       >
         DEPUBLIER
       </button>
       <button v-else
               type="button"
-              class="btn btn-outline-danger"
+              class="btn btn-outline-success"
               @click="miseJourEtPublication(true)"
       >
-        DEPUBLIER
+        PUBLIER
       </button>
     </div>
 
-    <!--bouton supprimer-->
+    <!--bouton supprimer au click on lance la fonction supprimerProduit ci-dessous-->
     <div class="mb-3">
       <button
           class="btn btn-outline-info"
-          @click="supprimerProduit"
+          v-on:click="supprimerProduit"
       >
         SUPPRIMER
       </button>
@@ -95,7 +95,7 @@
     <!--bouton mettre a jour-->
     <div class="mb-3">
       <button
-          class="btn btn-outline-info"
+          class="btn btn-outline-warning"
           @click="majProduit"
       >
         METTRE A JOUR
@@ -137,7 +137,8 @@ export default {
       //Recuperer le produit courant
       produitCourant: null,
       //Message quand la mise a jour est ok
-      message: ''
+      message: '',
+      publier: status
     };
   },
 
@@ -199,7 +200,20 @@ export default {
 
     //Cette fonction est appelée au click sur le bouton supprimer
     supprimerProduit(){
-      alert('supprimer Produit')
+      //requète http a partir de la classe ProduitsDatasServeice.js -> methode supprimer axios
+      //On recupere id a l'aide du produit courant soit /produit/:id dans le router ex: /produit/id de la collection json
+      ProduitsDatasServices.supprimerProduit(this.produitCourant.id)
+      //Creation d'une promesse pour la reponse
+      .then(response => {
+        //Debug f12
+        console.log(response.data)
+        //Redirection vers la page des produit a l'aide de Vue router grace a $router et push()
+        this.$router.push('../produits')
+        .catch(error => {
+          //Sinon on declenche une erreur
+          console.log("impossible de supprimer ce jeux " + error)
+        })
+      })
     }
   },
 
